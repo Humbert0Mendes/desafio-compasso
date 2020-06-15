@@ -15,7 +15,7 @@ Esta API tem como objetivo realizar o cadastro de Cidades e Clientes.
 `` ``
 
 ### API com Swagger-ui Disponível em:
-https://desafio-compasso-api.herokuapp.com/swagger-ui.html#/
+* https://desafio-compasso-api.herokuapp.com/swagger-ui.html#/
 
 * Acesso a lista de cidades cadastradas: https://desafio-compasso-api.herokuapp.com/api/cidades
 

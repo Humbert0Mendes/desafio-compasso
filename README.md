@@ -5,7 +5,6 @@ API Rest desenvolvida para atender o desafio proposto pela Compasso UOL.
 Esta API tem como objetivo realizar o cadastro de Cidades e Clientes.
 
 ### Tecnologias Utilizadas
-
 `` ``
 * Java8
 * Spring Boot
@@ -14,7 +13,6 @@ Esta API tem como objetivo realizar o cadastro de Cidades e Clientes.
 * Heroku
 * Swagger
 `` ``
-
 
 ### API com Swagger-ui Disponível em:
 https://desafio-compasso-api.herokuapp.com/swagger-ui.html#/

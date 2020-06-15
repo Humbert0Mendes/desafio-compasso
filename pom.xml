@@ -12,7 +12,7 @@
 	<groupId>com.compasso</groupId>
 	<artifactId>desafio</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>desafio</name>
 	<description>Desafio Compasso Spring Boot</description>
 

@@ -7,6 +7,7 @@ import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.ApiInfo;
+import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
@@ -25,16 +26,14 @@ public class SwaggerConfig {
                 .apiInfo(apiInfo());
     }
 
-    private ApiInfo apiInfo() {
-        return new ApiInfoBuilder()
-                .contact("Humberto Mendes")
-                .title("Desafio Compasso")
-                .description("API REST criada para cadastro de cidades e clientes.")
-                .license("Apache Licence Version 2.0")
-                .licenseUrl("https://apache.org")
-                .version("1.0")
-                .build();
+	private ApiInfo apiInfo() {
+		return new ApiInfoBuilder()
+				.contact(new Contact("Humberto Mendes", "https://github.com/Humbert0Mendes/desafio-compasso",
+						"hmpn87@gmail.com"))
+				.title("API REST Desafio Compasso")
+				.description("A API tem como objetivo realizar o cadastro de Cidades e Clientes.")
+				.license("Apache Licence Version 2.0").licenseUrl("https://apache.org").version("1.0").build();
 
-    }
+	}
 
 }
